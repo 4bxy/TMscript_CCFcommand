@@ -209,7 +209,7 @@
           const charName = extractCharNameFromItem(item);
 
           const output =
-            `【dmg】${charName}\n` +
+            `【実行者】${charName}\n` +
             `【dmg】：${total}\n` +
             `【hit】：${hit}`;
 
