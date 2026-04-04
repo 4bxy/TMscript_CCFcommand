@@ -9,7 +9,7 @@
   if (window.__CCF_CALL_CORE_V2_LOADED__) return;
   window.__CCF_CALL_CORE_V2_LOADED__ = true;
 
-  const VERSION = '2.0.0';
+  const VERSION = '2.0.1';
   const LOG = `[CCF .call v${VERSION}]`;
   const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
@@ -24,7 +24,7 @@
   const MULTI_DELAY_MS = 500; // 1体ごとの貼り付け間隔
 
   // === GitHub上のDB設定 ===
-  const GITHUB_DB_URL = 'https://raw.githubusercontent.com/4bxy/SWmonsterDB/refs/heads/main/monsterDBv8.json';
+  const GITHUB_DB_URL = 'https://raw.githubusercontent.com/4bxy/SWmonsterDB/refs/heads/main/monsterDBv9.json';
 
   // localStorageのキー
   const DB_STORAGE_KEY = 'ccf_call_monsterDB_json';
