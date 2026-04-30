@@ -1,5 +1,5 @@
-/* CCF .call v2.0.5
- * - Tampermonkey から @require で読み込まれる GitHub core,v13db(470イラスト)を読み込む
+/* CCF .call v2.1.0
+ * - Tampermonkey から @require で読み込まれる GitHub core,v14db(549イラスト)を読み込む
  */
 
 (function () {
@@ -9,7 +9,7 @@
   if (window.__CCF_CALL_CORE_V2_LOADED__) return;
   window.__CCF_CALL_CORE_V2_LOADED__ = true;
 
-  const VERSION = '2.0.5';
+  const VERSION = '2.1.0';
   const LOG = `[CCF .call v${VERSION}]`;
   const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
