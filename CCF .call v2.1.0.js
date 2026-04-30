@@ -24,7 +24,7 @@
   const MULTI_DELAY_MS = 500; // 1体ごとの貼り付け間隔
 
   // === GitHub上のDB設定 ===
-  const GITHUB_DB_URL = 'https://raw.githubusercontent.com/4bxy/SWmonsterDB/refs/heads/main/monsterDBv13.json';
+  const GITHUB_DB_URL = 'https://raw.githubusercontent.com/4bxy/SWmonsterDB/refs/heads/main/monsterDBv14.json';
 
   // localStorageのキー
   const DB_STORAGE_KEY = 'ccf_call_monsterDB_json';
